@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>deBussion - Servicios</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<style>
+     nav {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 1rem;
+    position: relative;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: 	#008080;
+}
+
+nav ul li .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 4px;
+    margin-top: 1rem;
+}
+
+nav ul li .dropdown-content a {
+    color: #333;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px solid #ddd;
+    transition: background 0.3s;
+}
+
+nav ul li .dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+nav ul li:hover .dropdown-content {
+    display: block;
+}
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            height: 300px;
+            background-image: url('https://i.postimg.cc/zGzmMFh6/Captura-de-pantalla-2024-05-23-181400.jpg');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        
+        h1 {
+            margin: 0;
+            padding: 0;
+            font-size: 36px;
+        }
+        
+        h2 {
+            color: #333;
+        }
+        
+        p {
+            line-height: 1.6;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #5DC1B9;
+            color: white;
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+        
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        footer{
+            background-color: #5DC1B9;
+            
+        }
+        .footerContainer{
+            width: 100%;
+            padding: 70px 30px 20px ;
+        }
+        .socialIcons{
+            display: flex;
+            justify-content: center;
+        }
+        .socialIcons a{
+            text-decoration: none;
+            padding:  10px;
+            background-color: white;
+            margin: 10px;
+            border-radius: 50%;
+        }
+        .socialIcons a i{
+            font-size: 2em;
+            color: black;
+            opacity: 0,9;
+        }
+        /* Hover affect on social media icon */
+        .socialIcons a:hover{
+            background-color: #111;
+            transition: 0.5s;
+        }
+        .socialIcons a:hover i{
+            color: white;
+            transition: 0.5s;
+        }
+        .footerNav{
+            margin: 30px 0;
+        }
+        .footerNav ul{
+            display: flex;
+            justify-content: center;
+            list-style-type: none;
+        }
+        .footerNav ul li a{
+            color:white;
+            margin: 20px;
+            text-decoration: none;
+            font-size: 1.3em;
+            opacity: 0.7;
+            transition: 0.5s;
+
+        }
+        .footerNav ul li a:hover{
+            text-decoration: underline;
+            opacity: 1;
+        }
+        .footerBottom{
+            background-color: #55B4B0;
+            padding: 20px;
+            text-align: center;
+        }
+        .footerBottom p{
+            color: white;
+        }
+        .designer{
+            opacity: 0.7;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 400;
+            margin: 0px 5px;
+        }
+</style>
+
+<body>
+        <nav>
+           <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li class="dropdown">
+                   <a href="servicios.html">Servicios</a>
+                   <div class="dropdown-content">
+                         <a href="coctelBar.html">Coctel-Bar</a>
+                         <a href="tallerBar.html">Taller-Bar</a>
+                   </div>
+                 </li>
+                <li><a href="sobreNosotros.html">Sobre Nosotros</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="LogIn.html"><img src="https://i.postimg.cc/Df6P6Q28/user-line-copia.png"></a></li>
+            </ul>
+        </nav>   
+        <header>
+            <h1>Nuestros Servicios</h1>
+        </header>
+        <div class="container">
+            <section>
+                <h2>Coctel-Bar</h2>
+                <p>El servicio de Coctel-Bar es perfecto para bodas y eventos especiales donde deseas ofrecer a tus invitados una experiencia única de coctelería. Nuestro equipo profesional proporcionará una variedad de deliciosos cócteles y bebidas, atendiendo a los gustos y preferencias de tus invitados. Con nuestra barra libre, tus invitados podrán disfrutar de una amplia selección de bebidas mientras celebran contigo.</p>
+                <button onclick="location.href='coctelBar.html'">Saber más</button>
+            </section>
+            <br>
+            <hr>
+            <br>
+            <section>
+                <h2>Taller-Bar</h2>
+                <p>Nuestro Taller-Bar es ideal para eventos corporativos, team building y fiestas privadas. Ofrecemos experiencias interactivas donde los participantes pueden aprender a preparar cócteles bajo la guía de nuestros expertos mixólogos. Además de aprender nuevas habilidades de coctelería, el Taller-Bar proporciona un ambiente divertido y colaborativo para fortalecer lazos entre colegas, amigos o familiares.</p>
+                <button onclick="location.href='tallerBar.html'">Saber más</button>
+            </section>
+        </div>
+</body>
+
+<footer>
+    <div class="footerContainer">
+        <div class="socialIcons">
+            <a href="https://www.instagram.com/de_bussion/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.tiktok.com/@debussion"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="contacto.html"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+        <div class="footerNav">
+            <ul><li><a href="ProyectoFinal.html">Inicio</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="sobreNosotros.html">Sobre Nosotros</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+        
+    </div>
+    <div class="footerBottom">
+        <p>🗓️ Agenda abierta 2024</p>
+        <p>🍸 Cóctel-Bar • Taller-Bar  🏷️ Bodas / Eventos / Teambuilding</p>
+        <p>Copyright &copy;2024; <span class="designer">DeBussion</span></p>
+    </div>
+</footer>
+</html>
