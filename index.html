@@ -390,7 +390,7 @@ nav ul li:hover .dropdown-content {
         }
         
         
-        /* Estilos para dispositivos con ancho máximo de 1200px */
+       /* Estilos para dispositivos con ancho máximo de 1200px */
 @media (max-width: 1200px) {
     .overlay h1 {
         font-size: 3rem;
@@ -447,6 +447,26 @@ nav ul li:hover .dropdown-content {
 
     .card {
         width: 95%;
+    }
+}
+
+/* Estilos para móviles en orientación vertical */
+@media (max-width: 576px) and (orientation: portrait) {
+    .overlay h1 {
+        font-size: 2rem;
+    }
+
+    header {
+        height: 200px;
+    }
+
+    .container {
+        padding: 0 0.5rem;
+    }
+
+    .card {
+        width: 100%;
+        margin: 5px 0;
     }
 }
     </style>
