@@ -390,39 +390,65 @@ nav ul li:hover .dropdown-content {
         }
         
         
-        @media (max-width: 768px) {
-            nav ul {
-                flex-direction: column;
-                align-items: center;
-            }
+        /* Estilos para dispositivos con ancho máximo de 1200px */
+@media (max-width: 1200px) {
+    .overlay h1 {
+        font-size: 3rem;
+    }
 
-            nav ul li {
-                margin: 0.5rem 0;
-            }
+    header {
+        height: 400px;
+    }
 
-            .overlay h1 {
-                font-size: 2.5rem;
-            }
+    .card {
+        width: 80%;
+    }
+}
 
-            header {
-                height: 300px;
-            }
+/* Estilos para dispositivos con ancho máximo de 992px */
+@media (max-width: 992px) {
+    .overlay h1 {
+        font-size: 2.8rem;
+    }
 
-            .container {
-                width: 100%;
-                padding: 0 1rem;
-            }
+    header {
+        height: 350px;
+    }
 
-            .wrapper {
-                flex-direction: column;
-                align-items: center;
-            }
+    .card {
+        width: 85%;
+    }
+}
 
-            .card {
-                width: 90%;
-                margin: 10px 0;
-            }
-        }
+/* Estilos para dispositivos con ancho máximo de 768px */
+@media (max-width: 768px) {
+    .overlay h1 {
+        font-size: 2.5rem;
+    }
+
+    header {
+        height: 300px;
+    }
+
+    .card {
+        width: 90%;
+    }
+}
+
+/* Estilos para dispositivos con ancho máximo de 576px */
+@media (max-width: 576px) {
+    .overlay h1 {
+        font-size: 2.2rem;
+    }
+
+    header {
+        height: 250px;
+    }
+
+    .card {
+        width: 95%;
+    }
+}
     </style>
 </head>
 <body>
